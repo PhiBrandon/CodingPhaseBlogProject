@@ -166,6 +166,11 @@
     letter-spacing: 2px;
 }
 
+article .media {
+    margin: 0;
+    padding: 0;
+}
+
 .image-box-1 {
     width: 250px;
     height: 325px;
@@ -263,19 +268,27 @@
     letter-spacing: 2px;
 }
 
+/* .info-title-1 {
+    position: relative;
+} */
+
 .circle {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: white;
-    position:relative;
-    left: 150px
+    position: relative;
+    left: 150px;
+    box-shadow: 1px 1px 5px -2px grey;
 }
 
-.circle .icon {
+.icon {
     position: absolute;
     top: 25px;
-    left: 25px;
+    left: 25px
+    
 }
-
