@@ -1,0 +1,57 @@
+.hero {
+    background-image: url("/img/hero-12.jpeg");
+    background-color: rgba(102, 98, 165, 0.658);
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+    background-blend-mode: overlay;
+}
+
+.hero .hero-head .navbar {
+    height: 60px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.hero .hero-head .navbar-brand {
+    margin-left: 50px;
+}
+
+.hero .hero-head .navbar-menu .navbar-end {
+    margin-right: 50px;
+    
+}
+.hero .hero-head .navbar-menu .navbar-start a:hover {
+    border-bottom: 1px solid white;
+    background-color: none;
+    background: transparent;
+    color: white;
+    transition: ease-out;
+}
+
+.hero .hero-head .navbar-menu .navbar-end .button {
+   height: 50px;
+   width: 135px;
+    
+}
+
+.hero .hero-head .navbar-menu .navbar-end .button:hover {
+    color: black;
+    background-color: rgba(255, 253, 253, 0.911);
+    opacity: .9;
+    transition: ease;
+     
+ }
+
+.hero .hero-head .navbar-menu .navbar-end .button span {
+    font-size: .8rem;
+    font-weight: 800;
+    
+}
+.hero .hero-foot .container {
+    height: 100px;
+    width: 100%;
+    margin-top: 25px;
+}

@@ -1,0 +1,48 @@
+.big-number {
+    z-index: 0;
+
+}
+
+.big-number p {
+    font-size: 10rem;
+    color: lightgray;
+    opacity: .3;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: -95px;
+
+}
+.title h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.title p {
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: rgb(143, 143, 143);
+    position: relative;
+    top: 15px;
+}
+
+.burger-box {
+    font-size: 1.2rem;
+    height: 500px;
+    width: 200;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.burger-box h5 {
+    color: rgb(52, 250, 12);
+    padding: 10px;
+}
+
+
+

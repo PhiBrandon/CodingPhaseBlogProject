@@ -1,0 +1,281 @@
+.hero {
+    background-image: url("/img/img/hero-12.jpeg");
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(102, 98, 165, 0.658);;
+    opacity: .8;
+    background-blend-mode: overlay;
+}
+
+/* .navbar {
+    height: 64px;
+}
+
+.navbar .container {
+    position: fixed;
+    left: 60px;
+    z-index: 1;
+} */
+
+
+.navbar-start a:hover {
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    /* transition: ease-out; */
+}
+
+.trial-btn {
+    width: 142px;
+    height: 48px;
+    border-width: 2px;
+    font-size: .9rem;
+    font-weight: 600;
+    border-color: white;
+    color: white;
+    background: transparent;
+}
+
+.trial-btn:hover {
+    background-color: rgba(255, 253, 253, 0.911);
+    opacity: .9;
+}
+
+
+
+.email-input {
+    font-size: .9rem;
+    width: 374px;
+    height: 50px;
+    padding: 6px 140px 6px 10px;
+    position: relative;
+    /* top: 100px;
+    bottom: 900px;
+    right: 100px;
+    left:200px; */
+}
+
+.sign-up-btn {
+    background-color: #00b289;
+    border-color: #00b289;
+    color: white;
+    font-weight: 500;
+    width: 120px;
+    height: 42px;
+    padding: 3px 13px 6px;
+    position: absolute;
+    top: 205px;
+    left: 250px;
+}
+
+.partner {
+    margin-left: 100px;
+}
+
+/* .affordable {
+    padding-top: 0px;
+    padding-bottom: 0;
+} */
+
+.bg-number {
+    font-size: 12rem;
+    font-weight: 600;
+    position: relative;
+    opacity: .1;
+    color: rgba(156, 145, 145, 0.842);
+    z-index: 0;
+}
+
+.titles {
+    display: flex;
+}
+
+.titles-info h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    z-index: 1;
+    position: relative;
+    top: -145px;
+    letter-spacing: 5px;
+    
+}
+
+.titles-info h4 {
+    position: relative;
+    top: -155px;
+    color: rgba(153, 144, 144, 0.822);
+    letter-spacing: 2px;
+}
+
+.food-info {
+    position: relative;
+    top: -75px;
+}
+
+/* .benefits {
+    padding-top: 0px;
+} */
+
+.product-benefits {
+    background-color: #fbfbfb;
+}
+
+.titles-benefits h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    z-index: 1;
+    position: relative;
+    top: -155px;
+    letter-spacing: 5px;
+}
+
+.titles-benefits h4 {
+    position: relative;
+    top: -165px;
+    color: rgba(153, 144, 144, 0.822);
+    letter-spacing: 2px;
+}
+
+
+.calendar-menu  {
+    width: 65%;
+    height: 65%;
+}
+
+.icon-vertical {
+    position: relative;
+    top: 25px;
+}
+
+.titles-choices h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    z-index: 1;
+    position: relative;
+    top: -155px;
+    letter-spacing: 5px;
+}
+
+.titles-choices h4 {
+    position: relative;
+    top: -165px;
+    color: rgba(153, 144, 144, 0.822);
+    letter-spacing: 2px;
+}
+
+.image-box-1 {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    background: url("/img/img/vegetarian.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-box-2 {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    background: url("/img/img/cakes.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-box-3 {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    background: url("/img/img/sweets.jpeg");
+    background-position: center;
+    background-size: cover;
+    /* background-repeat:no-repeat; */
+    /* padding: 20px; */
+}
+
+.image-box-4 {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    background: url("/img/img/fast-food.jpeg");
+    background-position: center;
+    background-size: cover;
+    /* background-repeat:no-repeat; */
+    /* padding: 20px; */
+}
+
+.image-box-5 {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    background: url("/img/img/pizza.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-box-6 {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    background: url("/img/img/meats.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-box-7 {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    background: url("/img/img/ice-cream.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-box-8 {
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    background: url("/img/img/asian-seafood.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.product-register {
+    background-color: #fbfbfb; 
+}
+
+.titles-register h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    z-index: 1;
+    position: relative;
+    top: -155px;
+    letter-spacing: 5px;
+}
+
+.titles-register h4 {
+    position: relative;
+    top: -165px;
+    color: rgba(153, 144, 144, 0.822);
+    letter-spacing: 2px;
+}
+
+.circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    background-color: white;
+    position:relative;
+    left: 150px
+}
+
+.circle .icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
