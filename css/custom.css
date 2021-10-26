@@ -86,9 +86,9 @@
     z-index: 0;
 }
 
-.titles {
-    display: flex;
-}
+/* .titles {
+    /* display: flex; */
+/* }  */
 
 .titles-info h1{
     font-size: 35px;
@@ -110,7 +110,7 @@
 
 .food-info {
     position: relative;
-    top: -75px;
+    top: 75px;
 }
 
 /* .benefits {
@@ -118,6 +118,7 @@
 } */
 
 .product-benefits {
+    height: 1300px;
     background-color: #fbfbfb;
 }
 
@@ -144,6 +145,58 @@
     height: 65%;
 }
 
+/* .icon-info {
+    margin-left: 100px;
+} */
+
+.info-box1 {
+    width: 300px;
+    height: 100px;
+    font-size: .7rem;
+    margin-left: 230px;
+}
+
+.info-box2 {
+    width: 300px;
+    height: 100px;
+    font-size: .7rem;
+    margin-left: 50px;
+
+}
+
+.info-box1 h6 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.info-box2 h6 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.icon-box1 {
+    height: 30px;
+    width: 40px;
+    margin-left: 170px;
+    position: relative;
+    top: 60px;
+}
+
+.icon-box2 {
+    height: 30px;
+    width: 40px;
+    /* margin-left: 170px; */
+    position: relative;
+    top: 60px;
+}
+
+.trial-column {
+    width: 100px;
+    height:100px;
+}
+
+
 .icon-vertical {
     position: relative;
     top: 25px;
@@ -166,10 +219,6 @@
     letter-spacing: 2px;
 }
 
-article .media {
-    margin: 0;
-    padding: 0;
-}
 
 .image-box-1 {
     width: 250px;
@@ -249,6 +298,7 @@ article .media {
 
 .product-register {
     background-color: #fbfbfb; 
+    height: 731px;
 }
 
 .titles-register h1 {
@@ -286,9 +336,68 @@ article .media {
     box-shadow: 1px 1px 5px -2px grey;
 }
 
-.icon {
+.icon-register {
     position: absolute;
     top: 25px;
     left: 25px
     
+}
+
+
+.reviews {
+display: flex;
+height: 400px;
+/* justify-content: ; */
+background-color: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 49%, rgba(144,196,125,1) 61%, rgba(41,154,11,1) 84%, rgba(41,154,11,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 7%,rgba(255,255,255,1) 49%,rgba(144,196,125,1) 61%,rgba(41,154,11,1) 84%,rgba(41,154,11,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(255,255,255,1) 7%,rgba(255,255,255,1) 49%,rgba(144,196,125,1) 61%,rgba(41,154,11,1) 84%,rgba(41,154,11,1) 100%);
+}
+
+
+.review-card {
+    width: 280px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 2px 9px -2px rgb(15, 77, 15);  
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.review-card1 {
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 2px 9px -2px rgb(15, 77, 15);  
+    margin-top: 100px;
+    margin-left: 0;
+}
+
+.testimony p {
+width: 255px;
+font-style: oblique;
+}
+
+.testimony .top-quote {
+    font-weight: 600;
+}
+
+.testimony h6 {
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 110px;
+    position: relative;
+    top: 25px;
+}
+
+.review-image {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
 }
